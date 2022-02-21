@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+
+	<form action="" method="">
+		Message
+		<textarea rows="10px" cols="20px" placeholder="Enter Message" name="message">
+			
+		</textarea>
+		<br>
+		<br>
+
+		<label>Name</label>
+		<br/>
+		<input type="text" name="uname" placeholder="Enter Your Name" required="">
+
+		<br/>
+		<br/>
+		<label>Name</label>
+		<br/>
+		<input type="number" name="uname" placeholder="Enter Your Name">
+		<br/>
+		<br/>
+		<input type="range" name="" min="1" max="100" step="20">
+
+		<br/>
+		<br/>
+		<label>Local Datetime</label>
+		<br/>
+		<input type="datetime-local" name="uname" placeholder="Enter Your Name">
+
+		<br/>
+		<br/>
+		<label>Email</label>
+		<br/>
+		<input type="email" name="uname" placeholder="Enter Your Name" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" title ="Should Enter a valid email">
+
+		<br/>
+		<br/>
+		<label>Checkbox</label>
+		<br/>
+		<input type="checkbox" name="uname"> Flutter
+		<br/>
+		<input type="checkbox" name="uname"> Web
+
+		<br/>
+		<br/>
+		<label>Radio</label>
+		<br/>
+		<input checked="" type="radio" name="uname" > Male
+		<br/>
+		<input type="radio" name="uname"> Female
+		<br/>
+		<input type="radio" name="uname"> Others
+
+		<br/>
+		<br/>
+		<label>Search</label>
+		<br/>
+		<input type="search" name="uname">
+		<input type="button" name="" value="Search">
+
+		<br/>
+		<br/>
+		<label>Email</label>
+		<br/>
+		<input type="reset" name="uname" value="reset">
+
+		<input type="button" onclick="alert('Hello World!')" value="Click Me!">
+
+		<br>
+		<label for="favcolor">Select your favorite color:</label>
+		<input type="color" id="favcolor" name="favcolor">
+
+		<br>
+		<label for="bdaymonth">Birthday (month and year):</label>
+		<input type="month" id="bdaymonth" name="bdaymonth">
+		<br>
+		<br>
+
+		<select>
+			<label>Select District</label>
+			<option selected disabled>Chosse One</option>
+			<option>Comilla</option>
+			<option>Dhaka</option>
+			<option>Chittagong</option>
+			<option>Bogra</option>
+		</select>
+
+		<br>
+		<select>
+			<optgroup label="Comila">
+				<option>Laksam</option>
+			<option>Monohorgong</option>
+			<option>Lalmai</option>
+			<option>Kandirpar</option>
+			</optgroup>
+			<optgroup label="Dhaka">
+				<option>Laksam</option>
+			<option>Monohorgong</option>
+			<option>Lalmai</option>
+			<option>Kandirpar</option>
+			</optgroup>
+		</select>
+		<br>
+		<br>
+		<label>Auto Complete </label>
+		<input list="names">
+		<datalist id="names">
+			<option>Karim</option>
+			<option>Rahim</option>
+			<option>Abul</option>
+			<option>Babul</option>
+		</datalist>
+
+		<br>
+		<br>
+		<label>Upload File</label>
+		<input type="file" name="" accept="image/*">
+
+		<input type="submit" name="" value="Submit">
+
+	</form>
+
+</body>
+</html>
